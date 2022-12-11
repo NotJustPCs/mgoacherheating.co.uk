@@ -10,38 +10,33 @@ body {
     color: var(--mg-blue);
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-weight: 400;
+    text-align: center;
 }
 
 header {
     padding: 10px;
+    font-size: 23px;
 }
 
 section {
     padding: 10px;
     margin-top: 0px;
     position: relative;
-    font-size: 23px;
 }
 
 img {
     width: 100%;
 }
 
-
 hr {
-    height: 12px;
+    height: 3px !important;
     width: 90%;
-    background-color: var(--mg-background);
-    border-top: 4px solid var(--mg-blue);
-    border-bottom: 4px solid var(--mg-red);
+    background-color: var(--mg-background) !important;
+    border-top: 4px solid var(--mg-blue) !important;
+    border-bottom: 4px solid var(--mg-red) !important;
 }
 
 h1 {
-    text-align: center;
     padding: 10px;
     margin-top: 0px;
-}
-
-h3 {
-    text-align: center;
 }
