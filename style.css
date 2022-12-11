@@ -18,12 +18,10 @@ body {
 }
 
 header {
-    padding: 10px;
     font-size: 23px;
 }
 
 section {
-    padding: 10px;
     margin-top: 0px;
     position: relative;
 }
@@ -40,6 +38,6 @@ hr {
     border-bottom: 4px solid var(--mg-red) !important;
 }
 
-h1 {
-    padding: 10px;
+a {
+    padding-left: 3px;
 }
