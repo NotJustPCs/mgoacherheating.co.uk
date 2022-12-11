@@ -8,16 +8,32 @@
 body {
 	background-color: var(--mg-background);
     color: var(--mg-blue);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 10px;
+}
+
+section {
+    padding: 10px;
+    margin-top: 0px;
+    position: relative;
+    font-size: 23px;
 }
 
 img {
     width: 100%;
 }
 
+
 hr {
-    color: var(--mg-blue);
-    width: 80%;
-    height: 3px;
+    height: 12px;
+    width: 90%;
+    background-color: var(--mg-background);
+    border-top: 4px solid var(--mg-blue);
+    border-bottom: 4px solid var(--mg-red);
 }
 
 h1 {
@@ -28,19 +44,4 @@ h1 {
 
 h3 {
     text-align: center;
-}
-
-footer {	
-	width: 100%;
-	background-color: #f5f3f0;
-	overflow: hidden;
-	min-height:6em;
-	padding-bottom: 1em;
-	border-top:solid 1px #388f87;
-}	
-
-.highlights {
-	width: 100%;
-	padding: 0px;
-	position: relative;
 }
