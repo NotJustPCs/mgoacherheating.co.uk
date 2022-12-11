@@ -1,0 +1,23 @@
+:root {
+    --dark-color:  #430709;
+    --second-color:  #f5d09e;
+}
+
+body {
+	background-color: white;
+    color: var(--main-color);
+}
+footer {	
+	width: 100%;
+	background-color: #f5f3f0;
+	overflow: hidden;
+	min-height:6em;
+	padding-bottom: 1em;
+	border-top:solid 1px #388f87;
+}	
+
+.highlights {
+	width: 100%;
+	padding: 0px;
+	position: relative;
+}
