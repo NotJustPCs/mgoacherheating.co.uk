@@ -38,6 +38,7 @@ hr {
     border-bottom: 4px solid var(--mg-red) !important;
 }
 
-a {
-    padding-left: 3px;
+.navbar-brand img {
+    width: auto;
+    height: 30px;
 }
